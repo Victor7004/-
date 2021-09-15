@@ -1,3 +1,4 @@
+#считает количество вхождений разных чисел в списке
 mylist = list(input().split())
 counter = 1
 n = len(mylist)
