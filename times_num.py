@@ -13,5 +13,5 @@ for i in range(len(number_list)):               # Задаем цикл пере
         if produkt_number == number_list[i]\
                 * number_list[j]:               # Проверяем условие;
             flag = "ДА"                         # Если условие верно изменяем flag на "ДА";
-            break                               # Прерываем цикл;
+            break                               # Прерываем цикл на флаг;
 print(flag)                                     # Вывод результатов.
