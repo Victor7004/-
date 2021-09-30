@@ -3,7 +3,7 @@
 n = int(input())                                # Задаем колличество значений для ввода;
 number_list = []                                # Создаем пустой список чтобы использовать в цикле;
 for i in range(n):                              # Заполняем список из n - значений;
-    number_list.append(int(input()))            
+    number_list.append(int(input()))            # считывая вводимые значения:
 produkt_number = int(input())                   # Задаем значение произведения;
 flag = "НЕТ"                                    # Задаем значение переменной flag;
 for i in range(len(number_list)):               # Задаем цикл перебора рашего списка;
