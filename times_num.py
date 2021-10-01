@@ -10,7 +10,7 @@ for i in range(len(number_list)):               # Задаем цикл пере
     for j in range(len(number_list)):           # Задаем вложеный цикл перебора наш. списка;
         if i == j:                              # Проверяем условие, заданое в условии задачи;
             continue                            # Пропускаем дальнешее выполнение цикла;
-        if produkt_number == number_list[i]\
+        if produkt_number == number_list[i]\    #Задаем условия
                 * number_list[j]:               # Проверяем условие;
             flag = "ДА"                         # Если условие верно изменяем flag на "ДА";
             break                               # Прерываем цикл на флаг;
