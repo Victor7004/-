@@ -5,5 +5,5 @@ numbers = input().split()
 for i in range(0, len(numbers) - 1, 2):
     #меняем значение элементов пары вблизи стоящих чисел
     numbers[i], numbers[i + 1] = numbers[i + 1], numbers[i]
-#распаковуем строку в принте    
+#распаковуем строку при выводе через принт    
 print(*numbers)
