@@ -8,3 +8,16 @@ for i in range(int(m)):
         matrix[j][i] = count
 for el in matrix:
     print(*el)
+
+# Верное решение #471563515
+n, m = [int(i) for i in input().split()]
+matrix = [[0] * m for _ in range(n)]
+
+for j in range(m):
+    for i in range(n):
+        matrix[i][j] = j * n + i + 1
+
+for i in range(n):
+    for j in range(m):
+        print(str(matrix[i][j]).ljust(3), end=' ')
+    print()    
