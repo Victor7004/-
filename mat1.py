@@ -7,3 +7,11 @@ for i in range(n):
             mat[i][j] = 1
 for el in mat:
     print(*el)
+
+# Верное решение #429453778
+n = int(input())
+
+res = [[1 if i == j or i == n - j - 1 else 0 for j in range(n)] for i in range(n)]
+
+for x in res:
+    print(*x)
