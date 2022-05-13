@@ -13,3 +13,12 @@ for i in numbers:
         print('NO')
         myset.add(i)
         
+# Мое решение 
+str = input().split()
+myset = set()
+for j in str:
+    if int(j) not in myset:
+        myset.add(int(j))
+        print('NO')
+    else:
+        print('YES')
