@@ -13,6 +13,7 @@ for i in numbers:
         print('NO')
         myset.add(i)
         
+        
 # Мое решение 
 str = input().split()
 myset = set()
