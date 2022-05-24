@@ -6,3 +6,8 @@ set2 = set(int(i) for i in input().split())
 set3 = set(int(i) for i in input().split())
 
 print(*sorted((set1 | set2 | set3)-(set1 & set2 & set3)))
+
+# Верное решение #432542475
+# Python 3
+s1, s2, s3 = [set(map(int, input().split())) for _ in range(3)]
+print(*sorted((s1 | s2 | s3) - (s1 & s2 & s3)))
