@@ -11,6 +11,6 @@ print(*sorted(myset1))
 # nothing of her subsists within the hollows and dells of memory, over which, if you can still stand my style (I am writing under observation), the sun of my infancy
 # had set: surely, you all know those redolent remnants of day suspended, with the midges, about some hedge in bloom or suddenly entered and traversed by the rambler, 
 #  at the bottom of a hill, in the summer dusk; a furry warmth, golden midges.'''
-
+# Верное решение
 s = {i.strip('.,:():;!?').lower() for i in sentence.split() if len(i.strip('.,:():;!?')) < 4}
 print(*sorted(s))
