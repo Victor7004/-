@@ -14,3 +14,9 @@ for key, value in result.items():
       result2[key] = result[key]
 res = sorted(result2)
 print(res[0])
+
+# ребята, сортировать не обязательно...
+d = {}
+for w in s.split():
+    d[w] = d.get(w, 0) + 1  
+print(min(d, key=lambda x: (-d[x], x)))
