@@ -9,7 +9,7 @@ for sim in lst:
         print(sim + '_'+str(result[sim]), end = ' ') 
     else:
         print(sim, end = ' ')
-#
+# Верное решение #443956403
 lst = input().split()
 res = {}
 for c in lst:
