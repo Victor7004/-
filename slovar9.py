@@ -15,6 +15,7 @@ for key, values in sorted(result.items()):
 # Верное решение #443948930
 # Python 3
 # put your python code here
+
 dct = {}
 lst = [word.strip('.,!?:;-') for word in input().lower().split()]
 for word in lst:
