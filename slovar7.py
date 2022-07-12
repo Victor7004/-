@@ -15,7 +15,6 @@ for key, value in result.items():
       result2[key] = result[key]
 res = sorted(result2)
 print(res[0])
-
 # ребята, сортировать не обязательно...
 d = {}
 for w in s.split():
