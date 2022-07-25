@@ -14,3 +14,15 @@ else:
 # Верное решение #441375342
 # Python 3
 print('YES' if sorted(input()) == sorted(input()) else 'NO')
+
+# Версия №2.
+
+# Верное решение #452470854
+# Python 3
+d = {}
+for c in input().lower():
+    d[c] = d.get(c, 0) + 1
+for c in input().lower():
+    d[c] = d.get(c, 0) - 1    
+
+print(('NO', 'YES')[set(d.values()) == {0}])
