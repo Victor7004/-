@@ -11,3 +11,6 @@ if w3 == w4 :
 else:
     print('NO')
     
+# Верное решение #441375342
+# Python 3
+print('YES' if sorted(input()) == sorted(input()) else 'NO')
