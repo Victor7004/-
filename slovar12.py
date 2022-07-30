@@ -11,3 +11,14 @@ if words1 == words2 :
     print('YES')
 else:
     print('NO')
+# Верное решение #448815421
+# Python 3
+def s(word):
+    res = {}
+    for i in word.lower():
+        if i.isalpha():
+            res[i] = res.get(i, 0) + 1
+    return res
+
+
+print(("NO", "YES")[s(input()) == s(input())])
