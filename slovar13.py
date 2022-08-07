@@ -11,6 +11,7 @@ for keys,values in d.items():
         print(keys)
 # Верное решение #431831889
 # Python 3
+
 words = {}
 for _ in range(int(input())):
     a, b = input().split()
