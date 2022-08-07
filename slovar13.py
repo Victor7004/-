@@ -9,6 +9,7 @@ for keys,values in d.items():
         print(values)
     if values == a:
         print(keys)
+
 # Верное решение #431831889
 # Python 3
 
