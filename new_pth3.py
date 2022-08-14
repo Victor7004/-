@@ -12,6 +12,7 @@ elif float(x) < 0:
     print("-1")
 else:
     print("0")
+    
 # Верное решение #623730020
 # Python 3
 x = float(input())
