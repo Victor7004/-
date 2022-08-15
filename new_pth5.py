@@ -29,3 +29,12 @@ for h in s:
 #условие если у в с[i]
 
 #печатаем (i)
+Верное решение #431923591
+Python 3
+d = {}
+for _ in range(int(input())):
+    country, *cities = input().split()
+    for c in cities:
+        d[c] = country
+for _ in range(int(input())):
+    print(d[input()])
