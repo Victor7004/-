@@ -23,3 +23,14 @@ for j in range(len(s)):
 #3.в цикле получаем значения нашего словаря по ключу ваша_строка.count(ваша_строка[i]) и выводим их с параметром end="" 
 
 #Удачи! =)
+# Верное решение #444071147
+# Python 3
+dct, word = {}, {}
+s = input()
+for c in s:
+    word[c] = word.get(c, 0) + 1
+for _ in range(int(input())):
+    a, b = input().split(': ')
+    dct[int(b)] = a
+for c in s:
+    print(dct[word[c]], end='')
